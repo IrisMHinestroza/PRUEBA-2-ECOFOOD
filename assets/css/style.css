@@ -1,0 +1,43 @@
+body { font-family: 'Work Sans', sans-serif;
+}
+
+.bg-gradient {
+    background-color: #09A603;
+}
+
+.bg-gradientcolor {
+    background-color: #93CE64;
+}
+.bg-gradientcolor1 {
+    background-color: #C2F2A0;
+  }
+
+  .video-responsive {
+  width: 300%;
+  height: 250%;
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .carousel {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .carousel img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid white;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel img:hover {
+    transform: scale(1.1);
+  }
